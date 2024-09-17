@@ -84,7 +84,7 @@ The XGBoost model significantly outperformed the Linear Regression model due to 
 
 - **Linear Regression**
 
-![Linear Regression](./img/linear_reg_graph.png)
+![Linear Regression](./img/linear_reg_line.png)
 
 - **XGBoost Regression**
 
