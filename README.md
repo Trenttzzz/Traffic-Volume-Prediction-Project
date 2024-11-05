@@ -31,8 +31,8 @@ The [dataset](https://www.kaggle.com/datasets/anshtanwar/metro-interstate-traffi
 - **clouds_all**: Cloudiness percentage (int64)
 - **weather_main**: Main weather condition (object)
 - **weather_description**: Detailed weather condition (object)
-- **hour, day_of_week, day_of_month, month, year**: Extracted features from the date-time column (int32)
-- **is_weekend**: Boolean indicating whether the day is a weekend (bool)
+- **date_time**: a datetime variable that shows the hour of the data collected in local CST time.
+
 
 Additional features were created such as cumulative, lag, rolling statistics, and categorical encodings to enhance the model's predictive power.
 
